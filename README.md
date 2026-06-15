@@ -39,18 +39,27 @@ Because this project has zero build steps or external dependencies, running it l
 
 2. Navigate to the project directory:
    ```bash
-   cd text-diff-engine
+   cd DiffTool
    ```
 
 3. Open index.html directly in your browser, or serve it using a local development server (e.g., VS Code Live Server or Python's http.server):
    ```bash
    python3 -m http.server 8000
    ```
+   ```text
+   Then open your web browser, go to the local address: http://localhost:8000
+   ```
+
 
 4. Paste your original text into the left panel, modified text into the right panel, and click Compute Diff.
+
+## 📂 Project Structure
+```text
+DiffTool/
 ├── index.html       # The semantic HTML structure and layout
-├── styles.css       # CSS variables, grid layout, and diff syntax highlighting
-└── diff-engine.js   # The LCS dynamic programming algorithm and DOM rendering logic
+├── styles.css       # Modern dark-mode styling and syntax highlights
+└── diff-engine.js   # The LCS core algorithm and rendering logic
+```
 
 ## 📄 License
 This project is licensed under the MIT License.
