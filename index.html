@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Diff Checker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main class="container">
+        <header>
+            <h1>Diff Checker Engine</h1>
+            <p>Compare text to find insertions and deletions line-by-line.</p>
+        </header>
+
+        <div class="input-grid">
+            <div class="input-group">
+                <label for="original-text">Original Text</label>
+                <textarea id="original-text" spellcheck="false" placeholder="Paste original text here..."></textarea>
+            </div>
+            <div class="input-group">
+                <label for="modified-text">Modified Text</label>
+                <textarea id="modified-text" spellcheck="false" placeholder="Paste modified text here..."></textarea>
+            </div>
+        </div>
+
+        <div class="controls">
+            <button id="compare-btn">Compute Diff</button>
+        </div>
+
+        <section class="output-section">
+            <h2>Diff Output</h2>
+            <div id="diff-output" class="diff-viewer">
+                <div class="empty-state">Results will appear here.</div>
+            </div>
+        </section>
+    </main>
+
+    <script src="diff-engine.js"></script>
+</body>
+</html>
