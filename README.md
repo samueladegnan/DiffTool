@@ -6,7 +6,7 @@ A lightweight, high-performance text diffing tool built entirely with vanilla Ja
 
 This project implements a classic **Longest Common Subsequence (LCS)** dynamic programming algorithm to determine the shortest edit path between an original text and a modified text. By calculating the mathematical difference matrix, the engine efficiently processes text changes without relying on external libraries like `diff-match-patch` or framework-specific diffing tools.
 
-**[View Live Demo](#) **
+**[View Live Demo](https://samueladegnan.github.io/DiffTool/) **
 
 ## ✨ Features
 
